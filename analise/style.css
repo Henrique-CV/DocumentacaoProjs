@@ -42,6 +42,10 @@ main {
     width: 6%;
     height: auto;
 }
+img {
+    height: 45px;
+    width: auto;
+}
 .item1 {
     text-align: center;
     grid-column: 1 / 6;
