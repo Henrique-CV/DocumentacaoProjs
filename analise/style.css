@@ -32,29 +32,26 @@ main {
 
 .item2 {
     border: 2px solid tomato;
-    grid-column: 1 / 6;
+    grid-column: 2;
 }
 .item3 {
-    grid-row: 3 / 5 ;
+    border: 2px solid tomato;
+    grid-row: 3;
+    grid-column: 2;
+
 }
 .item4 {
-    grid-row: 3 / 5;
+    border: 2px solid tomato;
+    grid-column: 4;
+
 }
 .item5 {
     border: 2px solid tomato;
+    grid-row: 3;
+    grid-column: 4;
 }
 .item6 {
     border: 2px solid tomato;
-}
-.item7 {
-    border: 2px solid tomato;
-}
-.item8 {
-    border: 2px solid tomato;
-}
-.item9 {
-    border: 2px solid tomato;
-}
-.item10 {
-    border: 2px solid tomato;
+    grid-row: 4;
+    grid-column: 3;
 }
