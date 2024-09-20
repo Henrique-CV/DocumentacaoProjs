@@ -1,0 +1,60 @@
+body {
+    background-color: orange;
+}
+nav {
+    display: flex;
+}
+nav > ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav > ul >  li {
+    display: inline-block;
+    margin-right: 20%; 
+}
+
+main {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+.logo{
+    width: 6%;
+    height: auto;
+}
+
+.item1 {
+    border: 2px solid tomato;
+    grid-column: 1 / 6;
+}
+
+.item2 {
+    border: 2px solid tomato;
+    grid-column: 1 / 6;
+}
+.item3 {
+    grid-row: 3 / 5 ;
+}
+.item4 {
+    grid-row: 3 / 5;
+}
+.item5 {
+    border: 2px solid tomato;
+}
+.item6 {
+    border: 2px solid tomato;
+}
+.item7 {
+    border: 2px solid tomato;
+}
+.item8 {
+    border: 2px solid tomato;
+}
+.item9 {
+    border: 2px solid tomato;
+}
+.item10 {
+    border: 2px solid tomato;
+}
